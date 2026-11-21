@@ -1,0 +1,1878 @@
+[
+  {
+    "id": 1,
+    "slug": "produit-001",
+    "name_fr": "Sweat patchwork denim",
+    "name_ar": "سويت شيرت دنيم باتشوورك",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir",
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_001.jpg"
+    ],
+    "description_fr": "Sweat patchwork denim — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "سويت شيرت دنيم باتشوورك — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 2,
+    "slug": "produit-002",
+    "name_fr": "Jean droit coutures",
+    "name_ar": "جينز مستقيم",
+    "category": "jeans",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_002.jpg"
+    ],
+    "description_fr": "Jean droit coutures — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جينز مستقيم — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 3,
+    "slug": "produit-003",
+    "name_fr": "Robe maille nœud brodé",
+    "name_ar": "فستان تريكو بفيونكة",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crème"
+    ],
+    "images": [
+      "/images/products/product_003.jpg",
+      "/images/products/product_004.jpg"
+    ],
+    "description_fr": "Robe maille nœud brodé — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "فستان تريكو بفيونكة — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 4,
+    "slug": "produit-004",
+    "name_fr": "Robe longue maille nœud",
+    "name_ar": "فستان طويل تريكو",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Ivoire"
+    ],
+    "images": [
+      "/images/products/product_004.jpg",
+      "/images/products/product_003.jpg"
+    ],
+    "description_fr": "Robe longue maille nœud — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "فستان طويل تريكو — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 5,
+    "slug": "produit-005",
+    "name_fr": "Sweat denim effiloché",
+    "name_ar": "سويت شيرت دنيم",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir",
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_005.jpg"
+    ],
+    "description_fr": "Sweat denim effiloché — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "سويت شيرت دنيم — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 6,
+    "slug": "produit-006",
+    "name_fr": "Veste en jean brodée",
+    "name_ar": "جاكيت جينز مطرز",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_006.jpg"
+    ],
+    "description_fr": "Veste en jean brodée — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز مطرز — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 7,
+    "slug": "produit-007",
+    "name_fr": "Trench long kaki",
+    "name_ar": "ترانش طويل كاكي",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Kaki"
+    ],
+    "images": [
+      "/images/products/product_007.jpg"
+    ],
+    "description_fr": "Trench long kaki — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "ترانش طويل كاكي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 8,
+    "slug": "produit-008",
+    "name_fr": "Jean large coutures",
+    "name_ar": "جينز واسع",
+    "category": "jeans",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Bleu clair"
+    ],
+    "images": [
+      "/images/products/product_008.jpg"
+    ],
+    "description_fr": "Jean large coutures — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جينز واسع — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 9,
+    "slug": "produit-009",
+    "name_fr": "Sweat bicolore denim",
+    "name_ar": "سويت شيرت بلونين",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanc",
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_009.jpg"
+    ],
+    "description_fr": "Sweat bicolore denim — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "سويت شيرت بلونين — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 10,
+    "slug": "produit-010",
+    "name_fr": "Pull noir brodé fleur",
+    "name_ar": "بول أسود مطرز",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_010.jpg"
+    ],
+    "description_fr": "Pull noir brodé fleur — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بول أسود مطرز — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 11,
+    "slug": "produit-011",
+    "name_fr": "Ensemble noir boutons dorés",
+    "name_ar": "طقم أسود بأزرار ذهبية",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_011.jpg"
+    ],
+    "description_fr": "Ensemble noir boutons dorés — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم أسود بأزرار ذهبية — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 12,
+    "slug": "produit-012",
+    "name_fr": "Veste en jean imprimée",
+    "name_ar": "جاكيت جينز مطبوع",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean",
+      "Gris"
+    ],
+    "images": [
+      "/images/products/product_012.jpg",
+      "/images/products/product_033.jpg"
+    ],
+    "description_fr": "Veste en jean imprimée — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز مطبوع — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 13,
+    "slug": "produit-013",
+    "name_fr": "Chemise rayée bleue",
+    "name_ar": "قميص مخطط أزرق",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu ciel"
+    ],
+    "images": [
+      "/images/products/product_013.jpg"
+    ],
+    "description_fr": "Chemise rayée bleue — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "قميص مخطط أزرق — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 14,
+    "slug": "produit-014",
+    "name_fr": "Jean destroy & polo",
+    "name_ar": "جينز مقطع",
+    "category": "jeans",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_014.jpg"
+    ],
+    "description_fr": "Jean destroy & polo — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جينز مقطع — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 15,
+    "slug": "produit-015",
+    "name_fr": "Pull torsadé col V",
+    "name_ar": "بول مضفر",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crème"
+    ],
+    "images": [
+      "/images/products/product_015.jpg"
+    ],
+    "description_fr": "Pull torsadé col V — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بول مضفر — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 16,
+    "slug": "produit-016",
+    "name_fr": "Trench classique beige",
+    "name_ar": "ترانش كلاسيكي بيج",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "images": [
+      "/images/products/product_016.jpg"
+    ],
+    "description_fr": "Trench classique beige — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "ترانش كلاسيكي بيج — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 17,
+    "slug": "produit-017",
+    "name_fr": "Ensemble veste & jupe chocolat",
+    "name_ar": "طقم جاكيت وتنورة شوكولا",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Chocolat"
+    ],
+    "images": [
+      "/images/products/product_017.jpg"
+    ],
+    "description_fr": "Ensemble veste & jupe chocolat — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم جاكيت وتنورة شوكولا — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 18,
+    "slug": "produit-018",
+    "name_fr": "Veste en jean perles",
+    "name_ar": "جاكيت جينز باللؤلؤ",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean",
+      "Rose"
+    ],
+    "images": [
+      "/images/products/product_018.jpg",
+      "/images/products/product_037.jpg"
+    ],
+    "description_fr": "Veste en jean perles — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز باللؤلؤ — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 19,
+    "slug": "produit-019",
+    "name_fr": "Ensemble veste & jupe bordeaux",
+    "name_ar": "طقم جاكيت وتنورة بوردو",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bordeaux"
+    ],
+    "images": [
+      "/images/products/product_019.jpg"
+    ],
+    "description_fr": "Ensemble veste & jupe bordeaux — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم جاكيت وتنورة بوردو — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 20,
+    "slug": "produit-020",
+    "name_fr": "Cardigan liseré noir",
+    "name_ar": "كارديغان بحواشي سوداء",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanc"
+    ],
+    "images": [
+      "/images/products/product_020.jpg"
+    ],
+    "description_fr": "Cardigan liseré noir — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان بحواشي سوداء — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 21,
+    "slug": "produit-021",
+    "name_fr": "Ensemble sweat & jogging",
+    "name_ar": "طقم رياضي",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bordeaux"
+    ],
+    "images": [
+      "/images/products/product_021.jpg"
+    ],
+    "description_fr": "Ensemble sweat & jogging — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم رياضي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 22,
+    "slug": "produit-022",
+    "name_fr": "Ensemble zippé crème",
+    "name_ar": "طقم بسحاب كريمي",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crème"
+    ],
+    "images": [
+      "/images/products/product_022.jpg"
+    ],
+    "description_fr": "Ensemble zippé crème — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم بسحاب كريمي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 23,
+    "slug": "produit-023",
+    "name_fr": "Ensemble body & pantalon noir",
+    "name_ar": "طقم بودي وسروال أسود",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_023.jpg",
+      "/images/products/product_024.jpg"
+    ],
+    "description_fr": "Ensemble body & pantalon noir — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم بودي وسروال أسود — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 24,
+    "slug": "produit-024",
+    "name_fr": "Body noir & pantalon boutons",
+    "name_ar": "بودي أسود وسروال",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_024.jpg",
+      "/images/products/product_023.jpg"
+    ],
+    "description_fr": "Body noir & pantalon boutons — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بودي أسود وسروال — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 25,
+    "slug": "produit-025",
+    "name_fr": "Veste fausse fourrure",
+    "name_ar": "جاكيت فرو صناعي",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "images": [
+      "/images/products/product_025.jpg"
+    ],
+    "description_fr": "Veste fausse fourrure — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت فرو صناعي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 26,
+    "slug": "produit-026",
+    "name_fr": "Ensemble veste & jupe marine",
+    "name_ar": "طقم جاكيت وتنورة كحلي",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu marine"
+    ],
+    "images": [
+      "/images/products/product_026.jpg"
+    ],
+    "description_fr": "Ensemble veste & jupe marine — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم جاكيت وتنورة كحلي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 27,
+    "slug": "produit-027",
+    "name_fr": "Cardigan blanc poches",
+    "name_ar": "كارديغان أبيض بجيوب",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanc"
+    ],
+    "images": [
+      "/images/products/product_027.jpg"
+    ],
+    "description_fr": "Cardigan blanc poches — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان أبيض بجيوب — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 28,
+    "slug": "produit-028",
+    "name_fr": "Veste en jean patchs",
+    "name_ar": "جاكيت جينز بباتشات",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_028.jpg",
+      "/images/products/product_040.jpg"
+    ],
+    "description_fr": "Veste en jean patchs — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز بباتشات — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 29,
+    "slug": "produit-029",
+    "name_fr": "Veste en jean bicolore",
+    "name_ar": "جاكيت جينز بلونين",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean",
+      "Gris"
+    ],
+    "images": [
+      "/images/products/product_029.jpg"
+    ],
+    "description_fr": "Veste en jean bicolore — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز بلونين — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 30,
+    "slug": "produit-030",
+    "name_fr": "Boléro fausse fourrure",
+    "name_ar": "بوليرو فرو",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "images": [
+      "/images/products/product_030.jpg"
+    ],
+    "description_fr": "Boléro fausse fourrure — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بوليرو فرو — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 31,
+    "slug": "produit-031",
+    "name_fr": "Hoodie rose poudré",
+    "name_ar": "هودي وردي",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Rose"
+    ],
+    "images": [
+      "/images/products/product_031.jpg"
+    ],
+    "description_fr": "Hoodie rose poudré — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "هودي وردي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 32,
+    "slug": "produit-032",
+    "name_fr": "Blouse crème & pantalon",
+    "name_ar": "بلوزة كريمية وسروال",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crème",
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_032.jpg"
+    ],
+    "description_fr": "Blouse crème & pantalon — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بلوزة كريمية وسروال — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 33,
+    "slug": "produit-033",
+    "name_fr": "Veste en jean dos imprimé",
+    "name_ar": "جاكيت جينز بطبعة خلفية",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_033.jpg",
+      "/images/products/product_012.jpg"
+    ],
+    "description_fr": "Veste en jean dos imprimé — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز بطبعة خلفية — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 34,
+    "slug": "produit-034",
+    "name_fr": "Cardigan & débardeur",
+    "name_ar": "كارديغان وتوب",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanc"
+    ],
+    "images": [
+      "/images/products/product_034.jpg"
+    ],
+    "description_fr": "Cardigan & débardeur — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان وتوب — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 35,
+    "slug": "produit-035",
+    "name_fr": "Hoodie zippé blanc",
+    "name_ar": "هودي بسحاب أبيض",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanc"
+    ],
+    "images": [
+      "/images/products/product_035.jpg"
+    ],
+    "description_fr": "Hoodie zippé blanc — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "هودي بسحاب أبيض — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 36,
+    "slug": "produit-036",
+    "name_fr": "Ensemble zippé kaki",
+    "name_ar": "طقم بسحاب كاكي",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Kaki"
+    ],
+    "images": [
+      "/images/products/product_036.jpg"
+    ],
+    "description_fr": "Ensemble zippé kaki — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم بسحاب كاكي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 37,
+    "slug": "produit-037",
+    "name_fr": "Veste en jean perlée",
+    "name_ar": "جاكيت جينز مزين",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_037.jpg",
+      "/images/products/product_018.jpg"
+    ],
+    "description_fr": "Veste en jean perlée — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز مزين — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 38,
+    "slug": "produit-038",
+    "name_fr": "Body bordeaux & pantalon",
+    "name_ar": "بودي بوردو وسروال",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bordeaux",
+      "Beige"
+    ],
+    "images": [
+      "/images/products/product_038.jpg"
+    ],
+    "description_fr": "Body bordeaux & pantalon — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بودي بوردو وسروال — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 39,
+    "slug": "produit-039",
+    "name_fr": "Pull gris brodé",
+    "name_ar": "بول رمادي مطرز",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Gris"
+    ],
+    "images": [
+      "/images/products/product_039.jpg"
+    ],
+    "description_fr": "Pull gris brodé — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بول رمادي مطرز — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 40,
+    "slug": "produit-040",
+    "name_fr": "Veste en jean colorée",
+    "name_ar": "جاكيت جينز ملون",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu jean"
+    ],
+    "images": [
+      "/images/products/product_040.jpg",
+      "/images/products/product_028.jpg"
+    ],
+    "description_fr": "Veste en jean colorée — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز ملون — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 41,
+    "slug": "produit-041",
+    "name_fr": "Chemise rayée cintrée",
+    "name_ar": "قميص مخطط",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bleu ciel"
+    ],
+    "images": [
+      "/images/products/product_041.jpg"
+    ],
+    "description_fr": "Chemise rayée cintrée — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "قميص مخطط — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 42,
+    "slug": "produit-042",
+    "name_fr": "Top col V chocolat",
+    "name_ar": "توب شوكولا",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Chocolat"
+    ],
+    "images": [
+      "/images/products/product_042.jpg"
+    ],
+    "description_fr": "Top col V chocolat — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "توب شوكولا — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 43,
+    "slug": "produit-043",
+    "name_fr": "Cardigan boutons dorés",
+    "name_ar": "كارديغان بأزرار ذهبية",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crème"
+    ],
+    "images": [
+      "/images/products/product_043.jpg"
+    ],
+    "description_fr": "Cardigan boutons dorés — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان بأزرار ذهبية — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 44,
+    "slug": "produit-044",
+    "name_fr": "Robe maille franges",
+    "name_ar": "فستان تريكو بالهداب",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Beige"
+    ],
+    "images": [
+      "/images/products/product_044.jpg"
+    ],
+    "description_fr": "Robe maille franges — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "فستان تريكو بالهداب — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 45,
+    "slug": "produit-045",
+    "name_fr": "Cardigan rayé marine",
+    "name_ar": "كارديغان مخطط",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Blanc",
+      "Bleu marine"
+    ],
+    "images": [
+      "/images/products/product_045.jpg"
+    ],
+    "description_fr": "Cardigan rayé marine — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان مخطط — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": true,
+    "in_stock": true
+  },
+  {
+    "id": 46,
+    "slug": "produit-046",
+    "name_fr": "Chemise bordeaux",
+    "name_ar": "قميص بوردو",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Bordeaux"
+    ],
+    "images": [
+      "/images/products/product_046.jpg"
+    ],
+    "description_fr": "Chemise bordeaux — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "قميص بوردو — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 47,
+    "slug": "produit-047",
+    "name_fr": "Polo maille crème",
+    "name_ar": "بولو تريكو كريمي",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Crème"
+    ],
+    "images": [
+      "/images/products/product_047.jpg"
+    ],
+    "description_fr": "Polo maille crème — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بولو تريكو كريمي — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 48,
+    "slug": "produit-048",
+    "name_fr": "Veste en jean 048",
+    "name_ar": "جاكيت جينز 048",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_048.jpg"
+    ],
+    "description_fr": "Veste en jean 048 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز 048 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 49,
+    "slug": "produit-049",
+    "name_fr": "Manteau 049",
+    "name_ar": "معطف 049",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_049.jpg"
+    ],
+    "description_fr": "Manteau 049 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "معطف 049 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 50,
+    "slug": "produit-050",
+    "name_fr": "Cardigan 050",
+    "name_ar": "كارديغان 050",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_050.jpg"
+    ],
+    "description_fr": "Cardigan 050 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان 050 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 51,
+    "slug": "produit-051",
+    "name_fr": "Ensemble 051",
+    "name_ar": "طقم 051",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_051.jpg"
+    ],
+    "description_fr": "Ensemble 051 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم 051 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 52,
+    "slug": "produit-052",
+    "name_fr": "Jean 052",
+    "name_ar": "جينز 052",
+    "category": "jeans",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_052.jpg"
+    ],
+    "description_fr": "Jean 052 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جينز 052 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 53,
+    "slug": "produit-053",
+    "name_fr": "Pull 053",
+    "name_ar": "بول 053",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_053.jpg"
+    ],
+    "description_fr": "Pull 053 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بول 053 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 54,
+    "slug": "produit-054",
+    "name_fr": "Veste en jean 054",
+    "name_ar": "جاكيت جينز 054",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_054.jpg"
+    ],
+    "description_fr": "Veste en jean 054 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز 054 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 55,
+    "slug": "produit-055",
+    "name_fr": "Manteau 055",
+    "name_ar": "معطف 055",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_055.jpg"
+    ],
+    "description_fr": "Manteau 055 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "معطف 055 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 56,
+    "slug": "produit-056",
+    "name_fr": "Cardigan 056",
+    "name_ar": "كارديغان 056",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_056.jpg"
+    ],
+    "description_fr": "Cardigan 056 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان 056 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 57,
+    "slug": "produit-057",
+    "name_fr": "Ensemble 057",
+    "name_ar": "طقم 057",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_057.jpg"
+    ],
+    "description_fr": "Ensemble 057 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم 057 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 58,
+    "slug": "produit-058",
+    "name_fr": "Jean 058",
+    "name_ar": "جينز 058",
+    "category": "jeans",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_058.jpg"
+    ],
+    "description_fr": "Jean 058 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جينز 058 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 59,
+    "slug": "produit-059",
+    "name_fr": "Pull 059",
+    "name_ar": "بول 059",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_059.jpg"
+    ],
+    "description_fr": "Pull 059 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بول 059 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 60,
+    "slug": "produit-060",
+    "name_fr": "Veste en jean 060",
+    "name_ar": "جاكيت جينز 060",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_060.jpg"
+    ],
+    "description_fr": "Veste en jean 060 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز 060 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 61,
+    "slug": "produit-061",
+    "name_fr": "Manteau 061",
+    "name_ar": "معطف 061",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_061.jpg"
+    ],
+    "description_fr": "Manteau 061 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "معطف 061 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 62,
+    "slug": "produit-062",
+    "name_fr": "Cardigan 062",
+    "name_ar": "كارديغان 062",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_062.jpg"
+    ],
+    "description_fr": "Cardigan 062 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان 062 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 63,
+    "slug": "produit-063",
+    "name_fr": "Ensemble 063",
+    "name_ar": "طقم 063",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_063.jpg"
+    ],
+    "description_fr": "Ensemble 063 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم 063 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 64,
+    "slug": "produit-064",
+    "name_fr": "Jean 064",
+    "name_ar": "جينز 064",
+    "category": "jeans",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_064.jpg"
+    ],
+    "description_fr": "Jean 064 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جينز 064 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 65,
+    "slug": "produit-065",
+    "name_fr": "Pull 065",
+    "name_ar": "بول 065",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_065.jpg"
+    ],
+    "description_fr": "Pull 065 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بول 065 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 66,
+    "slug": "produit-066",
+    "name_fr": "Veste en jean 066",
+    "name_ar": "جاكيت جينز 066",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_066.jpg"
+    ],
+    "description_fr": "Veste en jean 066 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز 066 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 67,
+    "slug": "produit-067",
+    "name_fr": "Manteau 067",
+    "name_ar": "معطف 067",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_067.jpg"
+    ],
+    "description_fr": "Manteau 067 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "معطف 067 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 68,
+    "slug": "produit-068",
+    "name_fr": "Cardigan 068",
+    "name_ar": "كارديغان 068",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_068.jpg"
+    ],
+    "description_fr": "Cardigan 068 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان 068 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 69,
+    "slug": "produit-069",
+    "name_fr": "Ensemble 069",
+    "name_ar": "طقم 069",
+    "category": "ensembles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_069.jpg"
+    ],
+    "description_fr": "Ensemble 069 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "طقم 069 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 70,
+    "slug": "produit-070",
+    "name_fr": "Jean 070",
+    "name_ar": "جينز 070",
+    "category": "jeans",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_070.jpg"
+    ],
+    "description_fr": "Jean 070 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جينز 070 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 71,
+    "slug": "produit-071",
+    "name_fr": "Pull 071",
+    "name_ar": "بول 071",
+    "category": "pulls",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_071.jpg"
+    ],
+    "description_fr": "Pull 071 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "بول 071 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 72,
+    "slug": "produit-072",
+    "name_fr": "Veste en jean 072",
+    "name_ar": "جاكيت جينز 072",
+    "category": "vestes-jean",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_072.jpg"
+    ],
+    "description_fr": "Veste en jean 072 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "جاكيت جينز 072 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 73,
+    "slug": "produit-073",
+    "name_fr": "Manteau 073",
+    "name_ar": "معطف 073",
+    "category": "manteaux-vestes",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_073.jpg"
+    ],
+    "description_fr": "Manteau 073 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "معطف 073 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  },
+  {
+    "id": 74,
+    "slug": "produit-074",
+    "name_fr": "Cardigan 074",
+    "name_ar": "كارديغان 074",
+    "category": "cardigans-mailles",
+    "price": 299,
+    "old_price": null,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Noir"
+    ],
+    "images": [
+      "/images/products/product_074.jpg"
+    ],
+    "description_fr": "Cardigan 074 — pièce choisie par BANATI FASHION. Coupe féminine et confortable, facile à associer. (Description à compléter.)",
+    "description_ar": "كارديغان 074 — قطعة مختارة من BANATI FASHION. قصة أنثوية ومريحة وسهلة التنسيق. (الوصف للتعديل)",
+    "is_new": false,
+    "in_stock": true
+  }
+]
