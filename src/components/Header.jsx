@@ -17,12 +17,12 @@ export default function Header() {
   useEffect(() => setOpen(false), [pathname])
   useEffect(() => { document.body.style.overflow = open ? 'hidden' : '' }, [open])
 
-  const linkCls = ({ isActive }) => `text-sm tracking-wide transition hover:text-burgundy ${isActive ? 'text-burgundy' : 'text-choco/80'}`
+  const linkCls = ({ isActive }) => `text-[12px] font-medium uppercase tracking-[0.16em] transition hover:text-burgundy ${isActive ? 'text-burgundy' : 'text-choco/80'}`
 
   return (
     <header className="sticky top-0 z-30 border-b border-choco/10 bg-cream/90 backdrop-blur">
-      <div className="bg-burgundy py-1.5 text-center text-[11px] tracking-wide text-cream">
-        🚚 {t('trust.delivery')} · 💵 {t('trust.cod')}
+      <div className="bg-burgundy whitespace-nowrap py-2 text-center text-[10px] font-medium uppercase tracking-[0.06em] text-cream sm:text-[11px] sm:tracking-[0.18em]">
+        {t('trust.delivery')} <span className="mx-1.5 text-blush sm:mx-2">✦</span> {t('trust.cod')}
       </div>
       <div className="container-x flex h-16 items-center justify-between gap-3">
         <button className="-ms-2 p-2 md:hidden" onClick={() => setOpen(true)} aria-label={t('nav.menu')}>

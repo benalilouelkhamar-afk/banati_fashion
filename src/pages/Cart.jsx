@@ -2,60 +2,16 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext.jsx'
 import { useCart } from '../context/CartContext.jsx'
-import { CITIES, waLink, openWhatsApp } from '../data/config.js'
+import OrderForm from '../components/OrderForm.jsx'
 import Img from '../components/Img.jsx'
 import { fmt } from '../components/Price.jsx'
-import { WhatsApp } from '../components/Icons.jsx'
-
-const cleanPhone = (s) => s.replace(/[\s.\-()]/g, '')
-const PHONE_RE = /^(?:\+212|00212|212|0)[5-7]\d{8}$/
-
-export function buildOrderMessage(lines, total, f) {
-  const rows = lines.map((l) => {
-    const color = l.color && l.product.colors.length > 1 ? ` (${l.color})` : ''
-    return `- ${l.product.name_fr}${color} | Taille: ${l.size || '-'} | Qté: ${l.qty} | ${l.qty * l.product.price} DH`
-  })
-  return [
-    'Salam BANATI 🌸',
-    'Commande:',
-    ...rows,
-    `Total: ${total} DH`,
-    `Nom: ${f.name.trim()}`,
-    `Tél: ${f.phone.trim()}`,
-    `Ville: ${f.city}`,
-    `Adresse: ${f.address.trim()}`,
-    `Note: ${f.note.trim() || '-'}`,
-  ].join('\n')
-}
 
 export default function Cart() {
   const { t, pick } = useLang()
   const { lines, setQty, remove, clear, total } = useCart()
-  const [f, setF] = useState({ name: '', phone: '', city: '', address: '', note: '' })
-  const [errors, setErrors] = useState({})
   const [sentUrl, setSentUrl] = useState('')
   const cur = t('common.currency')
-
-  const upd = (k) => (e) => { setF({ ...f, [k]: e.target.value }); setErrors({ ...errors, [k]: undefined }) }
-
-  const submit = (e) => {
-    e.preventDefault()
-    const er = {}
-    if (f.name.trim().length < 2) er.name = t('cart.errName')
-    if (!PHONE_RE.test(cleanPhone(f.phone))) er.phone = t('cart.errPhone')
-    if (!f.city) er.city = t('cart.errCity')
-    if (f.address.trim().length < 4) er.address = t('cart.errAddress')
-    setErrors(er)
-    if (Object.keys(er).length) {
-      document.getElementById(`c-${Object.keys(er)[0]}`)?.focus()
-      return
-    }
-    const url = waLink(buildOrderMessage(lines, total, f))
-    setSentUrl(url)
-    clear()
-    window.scrollTo(0, 0)
-    openWhatsApp(url)
-  }
+  const onSent = (url) => { setSentUrl(url); clear(); window.scrollTo(0, 0) }
 
   if (sentUrl) {
     return (
@@ -80,14 +36,6 @@ export default function Cart() {
       </div>
     )
   }
-
-  const Field = ({ id, label, children }) => (
-    <div>
-      <label htmlFor={`c-${id}`} className="mb-1.5 block text-sm font-medium">{label}</label>
-      {children}
-      {errors[id] && <p className="mt-1 text-xs text-burgundy">{errors[id]}</p>}
-    </div>
-  )
 
   return (
     <div className="container-x pt-8">
@@ -127,26 +75,11 @@ export default function Cart() {
           <Link to="/boutique" className="mt-4 inline-block text-sm text-burgundy underline">{t('cart.continue')}</Link>
         </div>
 
-        <form onSubmit={submit} noValidate className="h-fit space-y-4 rounded-3xl bg-white/70 p-5 shadow-sm sm:p-7">
-          <div>
-            <h2 className="font-serif text-2xl font-semibold">{t('cart.checkout')}</h2>
-            <p className="mt-1 text-xs text-choco/60">{t('cart.checkoutSub')}</p>
-          </div>
-          {Field({ id: 'name', label: t('cart.name'), children: <input id="c-name" className="field" autoComplete="name" value={f.name} onChange={upd('name')} /> })}
-          {Field({ id: 'phone', label: t('cart.phone'), children: <input id="c-phone" className="field" type="tel" inputMode="tel" dir="ltr" autoComplete="tel" placeholder="06 12 34 56 78" value={f.phone} onChange={upd('phone')} /> })}
-          {Field({ id: 'city', label: t('cart.city'), children: (
-            <select id="c-city" className="field" value={f.city} onChange={upd('city')}>
-              <option value="">{t('cart.chooseCity')}</option>
-              {CITIES.map((c) => <option key={c} value={c}>{c}</option>)}
-            </select>
-          ) })}
-          {Field({ id: 'address', label: t('cart.address'), children: <input id="c-address" className="field" autoComplete="street-address" value={f.address} onChange={upd('address')} /> })}
-          {Field({ id: 'note', label: t('cart.note'), children: <textarea id="c-note" rows={2} className="field resize-none" value={f.note} onChange={upd('note')} /> })}
-          <div className="flex items-center justify-between border-t border-choco/10 pt-4">
-            <span>{t('cart.total')}</span><span className="text-xl font-semibold text-burgundy">{fmt(total)} {cur}</span>
-          </div>
-          <button type="submit" className="btn-wa w-full py-4"><WhatsApp size={20} /> {t('cart.send')}</button>
-        </form>
+        <div className="h-fit rounded-3xl bg-white/70 p-5 shadow-sm sm:p-7 lg:sticky lg:top-28">
+          <h2 className="font-serif text-2xl font-semibold">{t('cart.checkout')}</h2>
+          <p className="mb-5 mt-1 text-xs text-choco/60">{t('cart.checkoutSub')}</p>
+          <OrderForm lines={lines} onSent={onSent} idPrefix="c" />
+        </div>
       </div>
     </div>
   )

@@ -1,14 +1,15 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import products from '../data/products.json'
-import { COLOR_HEX, waLink, openWhatsApp } from '../data/config.js'
+import { COLOR_HEX } from '../data/config.js'
+import { useOrder } from '../context/OrderContext.jsx'
 import { useLang } from '../context/LangContext.jsx'
 import { useCart } from '../context/CartContext.jsx'
 import Img from '../components/Img.jsx'
 import Price from '../components/Price.jsx'
 import ProductCard from '../components/ProductCard.jsx'
 import SizeGuideModal from '../components/SizeGuideModal.jsx'
-import { WhatsApp, Ruler, Chevron } from '../components/Icons.jsx'
+import { WhatsApp, Ruler, Chevron, Truck, Cash, Bag } from '../components/Icons.jsx'
 
 function Gallery({ images, alt }) {
   const ref = useRef(null)
@@ -59,6 +60,8 @@ export default function Product() {
   const { slug } = useParams()
   const { t, pick, lang } = useLang()
   const { add } = useCart()
+  const { openOrder } = useOrder()
+  const [qty, setQtyState] = useState(1)
   const p = products.find((x) => x.slug === slug)
   const [size, setSize] = useState('')
   const [color, setColor] = useState(p?.colors?.[0] || '')
@@ -67,7 +70,7 @@ export default function Product() {
   const [guide, setGuide] = useState(false)
   const closeGuide = useCallback(() => setGuide(false), [])
 
-  useEffect(() => { setSize(''); setColor(p?.colors?.[0] || ''); setErr(false); setAdded(false) }, [slug]) // eslint-disable-line
+  useEffect(() => { setSize(''); setColor(p?.colors?.[0] || ''); setErr(false); setAdded(false); setQtyState(1) }, [slug]) // eslint-disable-line
 
   useEffect(() => {
     if (p) document.title = `${p.name_fr} – BANATI FASHION`
@@ -85,19 +88,23 @@ export default function Product() {
 
   const name = pick(p, 'name')
   const needSize = () => {
-    if (p.sizes.length && !size) { setErr(true); return false }
+    if (p.sizes.length && !size) {
+      setErr(true)
+      document.getElementById('sizes')?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      return false
+    }
     return true
   }
   const onAdd = () => {
     if (!needSize()) return
-    add(p.id, size, color)
+    add(p.id, size, color, qty)
     setAdded(true)
     setTimeout(() => setAdded(false), 2200)
   }
-  const onWa = () => {
+  // « Commander via WhatsApp » : formulaire COD d'abord, puis WhatsApp
+  const onOrder = () => {
     if (!needSize()) return
-    const msg = t('product.waMsg', { name: p.name_fr, size: size || '-', color: color || '-', price: p.price, url: window.location.href })
-    openWhatsApp(waLink(msg))
+    openOrder({ lines: [{ key: `${p.id}|${size}|${color}`, id: p.id, size, color, qty, product: p }] })
   }
 
   const related = [
@@ -139,7 +146,7 @@ export default function Product() {
           )}
 
           {p.sizes.length > 0 && (
-            <div className="mt-6">
+            <div className="mt-6" id="sizes">
               <div className="mb-2 flex items-center justify-between">
                 <p className="text-xs uppercase tracking-wider text-choco/60">{t('product.size')}</p>
                 <button onClick={() => setGuide(true)} className="inline-flex items-center gap-1 text-xs text-burgundy underline-offset-4 hover:underline"><Ruler /> {t('product.sizeGuide')}</button>
@@ -156,22 +163,47 @@ export default function Product() {
             </div>
           )}
 
+          {p.in_stock && (
+            <div className="mt-6">
+              <p className="mb-2 text-xs uppercase tracking-wider text-choco/60">{t('order.qty')}</p>
+              <div className="inline-flex items-center rounded-full border border-choco/15 bg-white" dir="ltr">
+                <button className="h-11 w-11 text-lg" onClick={() => setQtyState((q) => Math.max(1, q - 1))} aria-label="-">−</button>
+                <span className="w-8 text-center font-medium">{qty}</span>
+                <button className="h-11 w-11 text-lg" onClick={() => setQtyState((q) => Math.min(20, q + 1))} aria-label="+">+</button>
+              </div>
+            </div>
+          )}
+
           {p.in_stock ? (
             <div className="mt-8 flex flex-col gap-3">
-              <button onClick={onAdd} className="btn-primary w-full py-4">{added ? t('product.added') : t('product.addToCart')}</button>
-              <button onClick={onWa} className="btn-wa w-full py-4"><WhatsApp size={20} /> {t('product.orderWa')}</button>
+              <button onClick={onOrder} className="btn-wa w-full py-4 text-[15px]"><WhatsApp size={20} /> {t('product.orderWa')}</button>
+              <button onClick={onAdd} className="btn-outline w-full py-4">{added ? t('product.added') : t('product.addToCart')}</button>
             </div>
           ) : (
             <p className="mt-8 rounded-2xl bg-white/70 p-4 text-center text-sm text-choco/70">{t('product.outOfStock')}</p>
           )}
           {added && <Link to="/panier" className="mt-3 block text-center text-sm text-burgundy underline">{t('nav.cart')} →</Link>}
 
-          <p className="mt-5 text-center text-xs text-choco/60">🚚 {t('product.delivery')}</p>
-
-          <div className="mt-8 border-t border-choco/10 pt-6">
-            <h2 className="mb-2 font-sans text-xs font-semibold uppercase tracking-wider text-choco/60">{t('product.description')}</h2>
-            <p className="leading-relaxed text-choco/80" lang={lang}>{pick(p, 'description')}</p>
+          <div className="mt-6 grid grid-cols-2 gap-3 text-xs text-choco/75">
+            <div className="flex items-center gap-2 rounded-xl bg-white/60 p-3"><Truck width="22" height="22" className="shrink-0 text-burgundy" /> {t('trust.delivery')}</div>
+            <div className="flex items-center gap-2 rounded-xl bg-white/60 p-3"><Cash width="22" height="22" className="shrink-0 text-burgundy" /> {t('trust.cod')}</div>
           </div>
+
+          <div className="mt-8 divide-y divide-choco/10 border-y border-choco/10">
+            <details open className="group py-4">
+              <summary className="flex cursor-pointer list-none items-center justify-between text-xs font-semibold uppercase tracking-wider [&::-webkit-details-marker]:hidden">
+                {t('product.description')}<span className="text-lg font-normal text-burgundy transition group-open:rotate-45">+</span>
+              </summary>
+              <p className="mt-3 leading-relaxed text-choco/80" lang={lang}>{pick(p, 'description')}</p>
+            </details>
+            <details className="group py-4">
+              <summary className="flex cursor-pointer list-none items-center justify-between text-xs font-semibold uppercase tracking-wider [&::-webkit-details-marker]:hidden">
+                {t('product.care')}<span className="text-lg font-normal text-burgundy transition group-open:rotate-45">+</span>
+              </summary>
+              <p className="mt-3 leading-relaxed text-choco/80">{t('product.careText')}</p>
+            </details>
+          </div>
+          <p className="mt-4 text-xs italic text-choco/55">🎀 {t('product.authentic')}</p>
         </div>
       </div>
 
@@ -184,6 +216,15 @@ export default function Product() {
         </section>
       )}
 
+      {p.in_stock && (
+        <div className="fixed inset-x-0 bottom-0 z-40 border-t border-choco/10 bg-cream/95 px-4 py-3 backdrop-blur md:hidden">
+          <div className="flex items-center gap-3">
+            <button onClick={onAdd} className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-burgundy text-burgundy" aria-label={t('product.addToCart')}><Bag /></button>
+            <button onClick={onOrder} className="btn-wa h-12 flex-1"><WhatsApp size={18} /> {t('order.buyNow')} · {p.price * qty} {t('common.currency')}</button>
+          </div>
+        </div>
+      )}
+      <div className="h-20 md:hidden" />
       <SizeGuideModal open={guide} onClose={closeGuide} />
     </div>
   )

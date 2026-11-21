@@ -1,15 +1,16 @@
 import { useLang } from '../context/LangContext.jsx'
+import { Truck, Cash, Store } from './Icons.jsx'
 
 export default function TrustBar() {
   const { t } = useLang()
-  const items = [['🚚', 'trust.delivery'], ['💵', 'trust.cod'], ['🏬', 'trust.store']]
+  const items = [[Truck, 'trust.delivery'], [Cash, 'trust.cod'], [Store, 'trust.store']]
   return (
-    <section className="border-y border-choco/10 bg-white/50">
-      <div className="container-x grid grid-cols-3 divide-x divide-choco/10 py-5 rtl:divide-x-reverse">
-        {items.map(([icon, k]) => (
-          <div key={k} className="flex flex-col items-center gap-1.5 px-2 text-center sm:flex-row sm:justify-center sm:gap-3">
-            <span className="text-2xl" aria-hidden="true">{icon}</span>
-            <span className="text-[11px] font-medium leading-tight text-choco sm:text-sm">{t(k)}</span>
+    <section className="border-y border-choco/10 bg-white/60">
+      <div className="container-x grid grid-cols-3 py-5 sm:py-6">
+        {items.map(([Icon, k], i) => (
+          <div key={k} className={`flex flex-col items-center gap-2 px-1 text-center sm:flex-row sm:justify-center sm:gap-3 ${i ? 'border-s border-choco/10' : ''}`}>
+            <Icon className="text-burgundy" />
+            <span className="text-[11px] font-medium uppercase leading-tight tracking-wide text-choco sm:text-xs">{t(k)}</span>
           </div>
         ))}
       </div>

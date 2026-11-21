@@ -1,6 +1,18 @@
 {
-  "nav": { "home": "Accueil", "shop": "Boutique", "about": "Notre histoire", "contact": "Contact", "faq": "FAQ", "cart": "Panier", "menu": "Menu", "close": "Fermer" },
-  "brand": { "tagline": "Timeless Elegance for Every Woman", "style": "Vintage • Chic • Feminine" },
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "about": "Notre histoire",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "cart": "Panier",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "brand": {
+    "tagline": "Timeless Elegance for Every Woman",
+    "style": "Vintage • Chic • Feminine"
+  },
   "categories": {
     "vestes-jean": "Vestes en jean",
     "manteaux-vestes": "Manteaux & Vestes",
@@ -29,9 +41,21 @@
     "testiSub": "Bientôt, les avis de nos clientes ici.",
     "testiEmpty": "Votre avis apparaîtra ici",
     "testiCta": "Partager mon avis sur WhatsApp",
-    "waHello": "Salam BANATI 🌸, je voudrais voir votre collection."
+    "waHello": "Salam BANATI 🌸, je voudrais voir votre collection.",
+    "collection": "La collection",
+    "editorial": "Pièces choisies une à une pour leur coupe, leur matière et leur charme intemporel.",
+    "why1": "Sélection soignée",
+    "why1t": "Chaque pièce est choisie à la main en boutique.",
+    "why2": "Conseil personnalisé",
+    "why2t": "Taille, style, assortiment : on vous répond sur WhatsApp.",
+    "why3": "Zéro risque",
+    "why3t": "Vous payez seulement à la livraison."
   },
-  "trust": { "delivery": "Livraison partout au Maroc", "cod": "Paiement à la livraison", "store": "Boutique à Kenitra" },
+  "trust": {
+    "delivery": "Livraison partout au Maroc",
+    "cod": "Paiement à la livraison",
+    "store": "Boutique à Kenitra"
+  },
   "shop": {
     "title": "La boutique",
     "all": "Tout",
@@ -48,7 +72,11 @@
     "reset": "Réinitialiser les filtres",
     "filters": "Filtres"
   },
-  "badge": { "new": "Nouveau", "out": "Rupture de stock", "sale": "Promo" },
+  "badge": {
+    "new": "Nouveau",
+    "out": "Rupture de stock",
+    "sale": "Promo"
+  },
   "product": {
     "size": "Taille",
     "color": "Couleur",
@@ -69,7 +97,10 @@
     "chest": "Poitrine",
     "waist": "Taille",
     "hips": "Hanches",
-    "jeanSize": "Jean (FR)"
+    "jeanSize": "Jean (FR)",
+    "care": "Livraison & échange",
+    "careText": "Livraison partout au Maroc, délai confirmé sur WhatsApp selon votre ville. Paiement en espèces à la réception. Échange : contactez-nous sur WhatsApp dès réception.",
+    "authentic": "Pièce sélectionnée en boutique à Kenitra"
   },
   "cart": {
     "title": "Mon panier",
@@ -103,9 +134,12 @@
     "p2": "Dans notre boutique de la Ville Haute, nous sélectionnons des pièces au charme vintage et à l'allure chic : vestes en jean, mailles douces, ensembles raffinés et manteaux intemporels, pour les femmes voilées comme non voilées.",
     "p3": "Notre promesse : des pièces choisies avec soin, des conseils sincères et une livraison partout au Maroc avec paiement à la livraison.",
     "values": "Nos valeurs",
-    "v1t": "Élégance", "v1": "Des coupes féminines qui traversent les saisons.",
-    "v2t": "Proximité", "v2": "Une boutique de quartier, un conseil personnalisé.",
-    "v3t": "Confiance", "v3": "Vous payez seulement à la réception."
+    "v1t": "Élégance",
+    "v1": "Des coupes féminines qui traversent les saisons.",
+    "v2t": "Proximité",
+    "v2": "Une boutique de quartier, un conseil personnalisé.",
+    "v3t": "Confiance",
+    "v3": "Vous payez seulement à la réception."
   },
   "contact": {
     "title": "Contact",
@@ -121,14 +155,57 @@
   "faq": {
     "title": "Questions fréquentes",
     "items": [
-      { "q": "Livrez-vous partout au Maroc ?", "a": "Oui, nous livrons dans toutes les villes du Maroc. Le délai et les frais de livraison vous sont confirmés sur WhatsApp au moment de la commande." },
-      { "q": "Comment se passe le paiement ?", "a": "Le paiement se fait à la livraison (cash), quand vous recevez votre colis. Aucun paiement en ligne n'est demandé." },
-      { "q": "Comment passer commande ?", "a": "Ajoutez vos articles au panier, remplissez le formulaire puis envoyez la commande sur WhatsApp. Vous pouvez aussi commander directement depuis la page d'un article." },
-      { "q": "Puis-je échanger un article ?", "a": "Les conditions d'échange (taille, délai) vous sont expliquées sur WhatsApp. Contactez-nous dès réception si la taille ne convient pas." },
-      { "q": "Comment choisir ma taille ?", "a": "Consultez le guide des tailles sur chaque article. En cas de doute, envoyez-nous vos mesures sur WhatsApp et nous vous conseillons." },
-      { "q": "Puis-je venir essayer en boutique ?", "a": "Bien sûr ! Notre boutique se trouve Rue Challa, Ville Haute, à Kenitra." }
+      {
+        "q": "Livrez-vous partout au Maroc ?",
+        "a": "Oui, nous livrons dans toutes les villes du Maroc. Le délai et les frais de livraison vous sont confirmés sur WhatsApp au moment de la commande."
+      },
+      {
+        "q": "Comment se passe le paiement ?",
+        "a": "Le paiement se fait à la livraison (cash), quand vous recevez votre colis. Aucun paiement en ligne n'est demandé."
+      },
+      {
+        "q": "Comment passer commande ?",
+        "a": "Ajoutez vos articles au panier, remplissez le formulaire puis envoyez la commande sur WhatsApp. Vous pouvez aussi commander directement depuis la page d'un article."
+      },
+      {
+        "q": "Puis-je échanger un article ?",
+        "a": "Les conditions d'échange (taille, délai) vous sont expliquées sur WhatsApp. Contactez-nous dès réception si la taille ne convient pas."
+      },
+      {
+        "q": "Comment choisir ma taille ?",
+        "a": "Consultez le guide des tailles sur chaque article. En cas de doute, envoyez-nous vos mesures sur WhatsApp et nous vous conseillons."
+      },
+      {
+        "q": "Puis-je venir essayer en boutique ?",
+        "a": "Bien sûr ! Notre boutique se trouve Rue Challa, Ville Haute, à Kenitra."
+      }
     ]
   },
-  "footer": { "links": "Liens", "contact": "Contact", "follow": "Suivez-nous", "rights": "© BANATI FASHION – Kenitra" },
-  "common": { "currency": "DH", "lang": "العربية", "whatsappFloat": "Commander sur WhatsApp", "address": "Ville Haute, Rue Challa, Kenitra, Maroc" }
+  "footer": {
+    "links": "Liens",
+    "contact": "Contact",
+    "follow": "Suivez-nous",
+    "rights": "© BANATI FASHION – Kenitra"
+  },
+  "common": {
+    "currency": "DH",
+    "lang": "العربية",
+    "whatsappFloat": "Commander sur WhatsApp",
+    "address": "Ville Haute, Rue Challa, Kenitra, Maroc"
+  },
+  "order": {
+    "title": "Finaliser la commande",
+    "sub": "Paiement à la livraison · Livraison partout au Maroc",
+    "wish": "Article(s) souhaité(s)",
+    "wishPh": "Ex : Veste en jean perles, taille M",
+    "errWish": "Indiquez l'article que vous souhaitez.",
+    "addressPh": "Quartier, rue, n° de maison…",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "shippingVal": "Confirmée sur WhatsApp",
+    "confirm": "Confirmer ma commande sur WhatsApp",
+    "reassure": "Aucun paiement en ligne · Vous payez à la réception",
+    "qty": "Quantité",
+    "buyNow": "Commander"
+  }
 }

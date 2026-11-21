@@ -7,6 +7,9 @@ et chaque commande part sur **WhatsApp** (+212 644 01 45 42), paiement à la liv
 ## Pages
 - `/` Accueil — `/boutique` Boutique (filtres, tri, recherche) — `/produit/produit-001` Fiche produit
 - `/panier` Panier + formulaire de commande WhatsApp — `/notre-histoire` — `/contact` — `/faq`
+- **Commande** : chaque bouton « Commander » (fiche produit, panier, accueil, bouton WhatsApp flottant) ouvre d'abord
+  le formulaire paiement à la livraison (nom, téléphone, ville, adresse, note), puis WhatsApp avec la commande complète
+  (`src/components/OrderForm.jsx`).
 - Français par défaut, bouton **العربية** en haut pour passer en arabe (droite → gauche).
 
 ---

@@ -13,7 +13,7 @@
 
 @layer components {
   .container-x { @apply mx-auto w-full max-w-6xl px-4 sm:px-6; }
-  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium tracking-wide transition active:scale-[.98] disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn { @apply inline-flex whitespace-nowrap items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium tracking-wide transition active:scale-[.98] disabled:cursor-not-allowed disabled:opacity-50; }
   .btn-primary { @apply btn bg-burgundy text-cream hover:bg-burgundy-dark; }
   .btn-outline { @apply btn border border-burgundy text-burgundy hover:bg-burgundy hover:text-cream; }
   .btn-wa { @apply btn bg-[#1f8f4e] text-white hover:bg-[#187540]; }
